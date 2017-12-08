@@ -1,0 +1,33 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+h1 {
+    font-family: 'sans-serif';
+    font-size: 60px;
+    display:flex;
+    text-indent: 100px;
+    text-shadow: 5px 6px 7px #0489B1;
+}
+/*I added the navbar, so that they all look the same*/
+nav{
+    font-family: 'sans-serif';
+    font-size: 40px;
+    display:flex;
+     text-align: center;
+    text-indent: 100px;
+    text-shadow: 5px 6px 7px #0489B1;
+}
+
+p {
+    font-size: 20px;
+}
+
+#jb {text-align: center}
+
+
+
+.card img{height:50%;
+          width:100%;}
+

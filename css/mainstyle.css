@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Berkshire+Swash');
+html,body{
+    height:100%; 
+}
+
+body{
+    background-image: url("../img/background.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    /*background-color: #D4EFDF;*/
+    
+}
+#nav{
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    text-indent: 100px;
+    text-shadow: 5px 6px 7px white;
+    color: white;
+    background-color: rgba(153,198,142,0.6);
+}
+#title
+{
+    background-color: rgba(153,198,142,0.6);
+    font-family: 'Berkshire Swash', cursive;
+    display: flex;
+    justify-content: center;
+}

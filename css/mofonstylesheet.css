@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Berkshire+Swash|Cormorant+Garamond');
+html, body {
+    height: 100%;
+    margin: 0;
+}
+nav{
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 40px;
+    display:flex;justify-content: center;
+    text-indent: 100px;
+    text-shadow: 5px 6px  7px green;
+    margin-top:20px;
+}
+body{
+    background-color:#D4EFDF;
+    border: 20px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+#p{
+    text-align: center;
+    font-family: 'Cormorant Garamond', serif;
+    font-size:30px;
+}
+#h1{
+    text-align: center;
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 40px;
+     text-shadow: 5px 6px  7px green;
+}
+#h4{
+    text-align:center;
+}
+#carc{
+    width:60%;
+    margin:auto;
+}
+
+@media only screen and 

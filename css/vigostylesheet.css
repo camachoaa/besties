@@ -1,0 +1,50 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+h1 {
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 60px;
+    display:flex;
+    justify-content: left;
+    text-indent: 100px;
+    text-shadow: 5px 6px 7px #0489B1;
+}
+/*I added the navbar, so that they all look the same*/
+nav{
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 40px;
+    display:flex;
+    justify-content: center;
+    text-indent: 100px;
+    text-shadow: 5px 6px 7px #0489B1;
+}
+
+#video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+    font-size: 20px;
+}
+
+
+@media (min-width: 481px) and (max-width: 1950px) {
+
+        h1 {
+        font-family: 'Berkshire Swash', cursive;
+        font-size: 40px;
+        display:flex;
+        justify-content: center;
+        text-indent: 100px;
+        text-shadow: 5px 6px 7px #0489B1;
+    }
+    
+     iframe {
+        margin: auto;
+     }
+     
+}
